@@ -27,6 +27,11 @@ module.exports = {
           'css-loader',
           'sass-loader'
         ]
+      },
+      // Directly from webpack
+      {
+        test: /\.png/,
+        type: 'asset/resource'
       }
     ]
   },
